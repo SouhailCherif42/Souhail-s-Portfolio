@@ -1,0 +1,195 @@
+@import url(https://fonts.googleapis.com/css?family=Rubik:300,regular,500,600,700,800,900,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+@import url(https://fonts.googleapis.com/css?family=Lobster:regular);
+@import url(https://fonts.googleapis.com/css?family=Indie+Flower:regular);
+@import url(https://fonts.googleapis.com/css?family=Lato:100,100italic,300,300italic,regular,italic,700,700italic,900,900italic);
+
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: antiquewhite;
+}
+
+.navbar{
+    height: 18vh; 
+    width: 100%;
+    
+    overflow: hidden;
+    position: absolute;
+
+    top: 0%;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+
+.one{
+    text-decoration: none;
+    color: black;
+    transition: 0.4s;
+
+    font-family: "Indie Flower", sans-serif;
+    font-size: 40px;
+    padding: 20px 20px;
+    margin: 20px;
+
+    border: 3px solid transparent;
+    border-radius: 22px;
+
+    padding: 10px 5px; 
+    float: left;
+}
+
+.one:hover{
+    border: 2px solid black;
+    border-radius: 22px;
+
+}
+
+.two{
+    float: left;
+    text-decoration: none;
+    color: black;
+    background: rgba(255, 255, 255, .1);
+    box-shadow: 0 5px 5px rgba(0, 0, 0, .2);
+    
+
+    font-family: "Indie Flower", sans-serif;
+    font-size: 25px;
+
+    margin: 25px;
+    margin-top: 35px;
+    padding: 15px 10px;
+    border-radius: 20px;
+
+    opacity: 1;
+    transition: 0.6s;
+}
+
+.two:hover{
+   transform: scale(1.2);
+   border: 2px solid black;
+}
+
+.three{
+    float: right;
+    text-decoration: none;
+    color: black;
+    background: rgba(255, 255, 255, .1);
+    box-shadow: 0 5px 5px rgba(0, 0, 0, .2);
+    
+
+    font-family: "Indie Flower", sans-serif;
+    font-size: 25px;
+
+    margin: 25px;
+    margin-top: 35px;
+    padding: 15px 10px;
+    border-radius: 20px;
+
+    opacity: 1;
+    transition: 0.6s;
+}
+
+.three:hover{
+    transform: scale(1.2);
+    border: 2px solid black;
+}
+
+.five{
+    float: left;
+    text-decoration: none;
+    color: black;
+    background: rgba(255, 255, 255, .1);
+    box-shadow: 0 5px 5px rgba(0, 0, 0, .2);
+    
+
+    font-family: "Indie Flower", sans-serif;
+    font-size: 25px;
+
+    margin: 25px;
+    margin-top: 35px;
+    padding: 15px 10px;
+    border-radius: 20px;
+
+    opacity: 1;
+    transition: 0.6s;
+}
+
+.five:hover{
+    transform: scale(1.2);
+   border: 2px solid black;
+}
+
+#buttonContainer {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 160px;
+  }
+  
+  .myButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    border: none;
+    transition: 0.6s;
+  }
+  
+  .myButton img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  .button1:hover{
+      background-color: gray;
+      transform: scale(1.1);
+  }
+
+  .button3:hover{
+      background-color:#e4405f ;
+      transform: scale(1.1);
+  }
+  .button4:hover{
+      background-color: #0077B5;
+      transform: scale(1.1);
+  }
+  
+  .myMessage{
+      font-size: 30px;
+      font-family: "Indie Flower", sans-serif;
+
+      margin-bottom: 20px;
+
+      padding: 10px;
+      background-color: whitesmoke;
+      border-radius: 20px;
+      transition: all 0.5s ease-in-out;
+  }
+  
+  .myMessage.show{
+      opacity: 1;
+  
+  }
+  
+  .bo{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: black;
+  }
+
+  .bo img{
+    width: 50%;
+  }
+
+  .bo a{
+    text-decoration: none;
+    color: #000000;
+  }

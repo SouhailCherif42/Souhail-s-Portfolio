@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="contact.css">
+    <script defer src="inders.js"></script>
+    <title>Contact</title>
+</head>
+<body>
+
+    <div class="navbar">
+      <a href="inders.html" class="one">Junior Web Developer</a>
+      <div id="button" class="two"> Blue Mode</div>
+      <a href="Contact.html" id="three" class="three">Contact</a>
+      <a href="2048.html" id="five" class="five"> Play ?</a>
+    </div>
+    <div id="buttonContainer">
+      <div class="bo">
+          <div class="myMessage" id="myMessage1" style="opacity: 0;">06 29 94 47 53</div>
+          <button id="myButton1" class="myButton button1"><img src="Images/Appel.png" alt="Image 1"></button>
+      </div>
+    
+      <div class="bo">
+          <div class="myMessage" id="myMessage3" style="opacity: 0;">cherifsouhail474@gmail.com</div>
+          <button id="myButton3" class="myButton button3"><img src="Images/gmail.png" alt="Image 3"></button>
+      </div>
+      <div class="bo">
+          <div class="myMessage" id="myMessage4" style="opacity: 0;"><a href="https://www.linkedin.com/in/souhail-cherif-49584522b/">CHERIF Souhail</a></div>
+          <button id="myButton4" class="myButton button4 "><img src="Images/linkedin.png" alt="Image 4"></button>
+      </div>
+  </div>
+</body>
+<script>
+let button1 = document.getElementById('myButton1') ;
+let Message1 = document.getElementById('myMessage1') ;
+
+
+let button3 = document.getElementById('myButton3') ;
+let Message3 = document.getElementById('myMessage3') ;
+
+let button4 = document.getElementById('myButton4') ;
+let Message4 = document.getElementById('myMessage4') ;
+
+
+button1.addEventListener('click', function() {
+    if(Message1.style.opacity === '1'){
+        Message1.style.opacity = '0';
+    } else {
+        Message1.style.opacity = '1';
+    }
+});
+
+
+button3.addEventListener('click', function() {
+    if(Message3.style.opacity === '1'){
+        Message3.style.opacity = '0';
+    } else {
+        Message3.style.opacity = '1';
+    }
+});
+
+button4.addEventListener('click', function() {
+    if(Message4.style.opacity === '1'){
+        Message4.style.opacity = '0';
+    } else {
+        Message4.style.opacity = '1';
+    }
+});
+</script>
+</html>
+
